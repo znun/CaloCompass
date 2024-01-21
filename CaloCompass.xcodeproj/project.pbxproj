@@ -13,6 +13,7 @@
 		CE3E6AE62B5CDC9300E0DA82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3E6AE52B5CDC9300E0DA82 /* Preview Assets.xcassets */; };
 		CE3E6AEF2B5CDF5D00E0DA82 /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE3E6AED2B5CDF5D00E0DA82 /* FoodModel.xcdatamodeld */; };
 		CE3E6AF12B5CE0B000E0DA82 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E6AF02B5CE0B000E0DA82 /* DataController.swift */; };
+		CE3E6AF52B5CFE8300E0DA82 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E6AF42B5CFE8300E0DA82 /* AddFoodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		CE3E6AE52B5CDC9300E0DA82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE3E6AEE2B5CDF5D00E0DA82 /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
 		CE3E6AF02B5CE0B000E0DA82 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		CE3E6AF42B5CFE8300E0DA82 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,6 @@
 				CE3E6ADE2B5CDC9100E0DA82 /* CaloCompassApp.swift */,
 				CE3E6AF32B5CF0C900E0DA82 /* Helpers */,
 				CE3E6AF22B5CF0BA00E0DA82 /* Views */,
-				CE3E6AE02B5CDC9100E0DA82 /* ContentView.swift */,
 				CE3E6AEC2B5CDF2400E0DA82 /* DataModel */,
 				CE3E6AE22B5CDC9300E0DA82 /* Assets.xcassets */,
 				CE3E6AE42B5CDC9300E0DA82 /* Preview Content */,
@@ -86,6 +87,8 @@
 		CE3E6AF22B5CF0BA00E0DA82 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CE3E6AE02B5CDC9100E0DA82 /* ContentView.swift */,
+				CE3E6AF42B5CFE8300E0DA82 /* AddFoodView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3E6AF52B5CFE8300E0DA82 /* AddFoodView.swift in Sources */,
 				CE3E6AE12B5CDC9100E0DA82 /* ContentView.swift in Sources */,
 				CE3E6AF12B5CE0B000E0DA82 /* DataController.swift in Sources */,
 				CE3E6ADF2B5CDC9100E0DA82 /* CaloCompassApp.swift in Sources */,
