@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0944172B5D40040034CCDB /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0944162B5D40040034CCDB /* EditFoodView.swift */; };
 		CE3E6ADF2B5CDC9100E0DA82 /* CaloCompassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E6ADE2B5CDC9100E0DA82 /* CaloCompassApp.swift */; };
 		CE3E6AE12B5CDC9100E0DA82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E6AE02B5CDC9100E0DA82 /* ContentView.swift */; };
 		CE3E6AE32B5CDC9300E0DA82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3E6AE22B5CDC9300E0DA82 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0944162B5D40040034CCDB /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
 		CE3E6ADB2B5CDC9100E0DA82 /* CaloCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaloCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3E6ADE2B5CDC9100E0DA82 /* CaloCompassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloCompassApp.swift; sourceTree = "<group>"; };
 		CE3E6AE02B5CDC9100E0DA82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				CE3E6AE02B5CDC9100E0DA82 /* ContentView.swift */,
 				CE3E6AF42B5CFE8300E0DA82 /* AddFoodView.swift */,
+				CE0944162B5D40040034CCDB /* EditFoodView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				CE3E6AF12B5CE0B000E0DA82 /* DataController.swift in Sources */,
 				CE3E6ADF2B5CDC9100E0DA82 /* CaloCompassApp.swift in Sources */,
 				CE3E6AEF2B5CDF5D00E0DA82 /* FoodModel.xcdatamodeld in Sources */,
+				CE0944172B5D40040034CCDB /* EditFoodView.swift in Sources */,
 				CE3E6AF72B5D045900E0DA82 /* TimeFormatting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
