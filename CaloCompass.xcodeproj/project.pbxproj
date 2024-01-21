@@ -14,6 +14,7 @@
 		CE3E6AEF2B5CDF5D00E0DA82 /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE3E6AED2B5CDF5D00E0DA82 /* FoodModel.xcdatamodeld */; };
 		CE3E6AF12B5CE0B000E0DA82 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E6AF02B5CE0B000E0DA82 /* DataController.swift */; };
 		CE3E6AF52B5CFE8300E0DA82 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E6AF42B5CFE8300E0DA82 /* AddFoodView.swift */; };
+		CE3E6AF72B5D045900E0DA82 /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E6AF62B5D045900E0DA82 /* TimeFormatting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		CE3E6AEE2B5CDF5D00E0DA82 /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
 		CE3E6AF02B5CE0B000E0DA82 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		CE3E6AF42B5CFE8300E0DA82 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		CE3E6AF62B5D045900E0DA82 /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		CE3E6AF32B5CF0C900E0DA82 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				CE3E6AF62B5D045900E0DA82 /* TimeFormatting.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				CE3E6AF12B5CE0B000E0DA82 /* DataController.swift in Sources */,
 				CE3E6ADF2B5CDC9100E0DA82 /* CaloCompassApp.swift in Sources */,
 				CE3E6AEF2B5CDF5D00E0DA82 /* FoodModel.xcdatamodeld in Sources */,
+				CE3E6AF72B5D045900E0DA82 /* TimeFormatting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
