@@ -10,7 +10,7 @@ import CoreData
 
 struct ContentView: View {
 
-    @Environment(\.managedObjectContext) var managedObjContent
+    @Environment(\.managedObjectContext) var managedObjContext
     @FetchRequest(sortDescriptors: [SortDescriptor(\.date, order: .reverse)]) var food: FetchedResults<Food>
     @State private var showingAddView = false
     
@@ -63,7 +63,11 @@ struct ContentView: View {
     }
     
     private func deleteFood(offSets: IndexSet) {
-        //pass
+        withAnimation{
+            offSets.map { food[$0] }.forEach(managedObjContext.delete)
+            DataController().save(context: managedObjContext)
+            
+        }
         
     }
     
