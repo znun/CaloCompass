@@ -56,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				CE3E6ADE2B5CDC9100E0DA82 /* CaloCompassApp.swift */,
+				CE3E6AF32B5CF0C900E0DA82 /* Helpers */,
+				CE3E6AF22B5CF0BA00E0DA82 /* Views */,
 				CE3E6AE02B5CDC9100E0DA82 /* ContentView.swift */,
 				CE3E6AEC2B5CDF2400E0DA82 /* DataModel */,
 				CE3E6AE22B5CDC9300E0DA82 /* Assets.xcassets */,
@@ -79,6 +81,20 @@
 				CE3E6AF02B5CE0B000E0DA82 /* DataController.swift */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CE3E6AF22B5CF0BA00E0DA82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE3E6AF32B5CF0C900E0DA82 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
